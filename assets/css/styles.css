@@ -1,0 +1,20 @@
+
+/* VARIABLES CSS */
+:root {
+    --clr-text-cta: hsl(356, 100%, 66%);
+    --clr-text-headings: hsl(208, 49%, 24%);
+    --clr-text-footer: hsl(240, 2%, 79%);
+    --clr-text-body: hsl(207, 13%, 34%);
+    --clr-bg-cta: hsl(355, 100%, 74%);
+    --clr-bg-footer: hsl(240, 10%, 16%);
+    --clr-white: hsl(0, 0%, 100%);
+
+    --gradient-cta: linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    --gradient-body: linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+}
