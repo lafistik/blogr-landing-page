@@ -43,6 +43,11 @@
 
 body {
   font-family: var(--ff-overpass);
+  color: var(--clr-text-body);
+}
+
+.section {
+  padding-block: 6rem;
 }
 
 ul {
@@ -56,6 +61,12 @@ a {
 img {
   display: block;
   max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--clr-text-headings);
 }
 
 p {
@@ -79,6 +90,10 @@ p {
 .grid {
   display: grid;
   gap: 1.5rem;
+}
+
+.white {
+  color: var(--clr-white);
 }
 
 /* HEADER */
@@ -255,6 +270,7 @@ li:last-of-type .dropdown__link {
 
 .hero__title {
   font-size: 2rem;
+  color: var(--clr-white);
 }
 
 .hero__desctiption {
@@ -276,4 +292,64 @@ li:last-of-type .dropdown__link {
 .btn-empty {
   color: var(--clr-white);
   border: 1px solid var(--clr-white);
+}
+
+/* DESIGNED SECTION */
+.designed__title {
+  text-align: center;
+  font-size: 1.75rem;
+  margin-bottom: 4rem;
+}
+
+.designed__img {
+  scale: 1.25;
+  margin-inline: auto;
+}
+
+.designed__content {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.designed__content-title {
+  font-size: 1.725rem;
+  margin-bottom: 1.25rem;
+}
+
+.designed__content-description {
+  font-size: 1.05rem;
+}
+
+.designed__content article:first-child {
+  margin-bottom: 3rem;
+}
+
+/* ART */
+.art {
+  padding-top: 10rem;
+}
+
+.art__header {
+  color: var(--clr-white);
+  text-align: center;
+  position: relative;
+  padding-block: 13rem 6.5rem;
+  background-image: url("../images/bg-pattern-circles.svg"),
+    linear-gradient(to bottom, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+  background-repeat: no-repeat;
+  background-size: 150vw 150vw, auto auto;
+  background-position: center -64vw, center center;
+  border-bottom-left-radius: 8rem;
+  border-top-right-radius: 8rem;
+}
+
+.art__header-title {
+  color: var(--clr-white);
+  font-size: 2.25rem;
+  margin-bottom: 1.625rem;
+}
+
+.art__phones {
+  position: absolute;
+  transform: translateY(-50%);
 }
