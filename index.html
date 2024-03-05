@@ -44,11 +44,17 @@
             <li class="dropdown__item">
               <div class="nav__link">
                 Product
-                <img
-                  src="./assets/images/icon-arrow-dark.svg"
-                  alt="arrow icon"
-                  class="dropdown__arrow"
-                />
+                <picture>
+                  <source
+                    media="(max-width: 1150px)"
+                    srcset="./assets/images/icon-arrow-dark.svg"
+                  />
+                  <img
+                    src="./assets/images/icon-arrow-light.svg"
+                    alt="arrow icon"
+                    class="dropdown__arrow"
+                  />
+                </picture>
               </div>
 
               <ul class="dropdown__menu">
@@ -78,11 +84,17 @@
             <li class="dropdown__item">
               <div class="nav__link">
                 Company
-                <img
-                  src="./assets/images/icon-arrow-dark.svg"
-                  alt="arrow icon"
-                  class="dropdown__arrow"
-                />
+                <picture>
+                  <source
+                    media="(max-width: 1150px)"
+                    srcset="./assets/images/icon-arrow-dark.svg"
+                  />
+                  <img
+                    src="./assets/images/icon-arrow-light.svg"
+                    alt="arrow icon"
+                    class="dropdown__arrow"
+                  />
+                </picture>
               </div>
 
               <ul class="dropdown__menu">
@@ -108,11 +120,17 @@
             <li class="dropdown__item">
               <div class="nav__link">
                 Connect
-                <img
-                  src="./assets/images/icon-arrow-dark.svg"
-                  alt="arrow icon"
-                  class="dropdown__arrow"
-                />
+                <picture>
+                  <source
+                    media="(max-width: 1150px)"
+                    srcset="./assets/images/icon-arrow-dark.svg"
+                  />
+                  <img
+                    src="./assets/images/icon-arrow-light.svg"
+                    alt="arrow icon"
+                    class="dropdown__arrow"
+                  />
+                </picture>
               </div>
 
               <ul class="dropdown__menu">
@@ -129,7 +147,9 @@
                 </li>
               </ul>
             </li>
-            <li><a href="#" class="nav__link login-btn">Login</a></li>
+            <li class="push-right">
+              <a href="#" class="nav__link login-btn">Login</a>
+            </li>
             <li><a href="#" class="nav__link button signup">Sign Up</a></li>
           </ul>
         </div>
@@ -216,24 +236,32 @@
 
         <div class="art__body grid">
           <div class="art__laptop">
-            <img src="assets/images/illustration-laptop-mobile.svg" alt="laptop image">
+            <img
+              src="assets/images/illustration-laptop-mobile.svg"
+              alt="laptop image"
+            />
           </div>
 
           <div class="art__body-content container">
             <article>
               <h3 class="art__body-title">Free, open, simple</h3>
-              <p class="art__body-description">Blogr is a free and
-                open source application backed by a large community of helpful developers.
-                It supports features such as code syntax highlighting, RSS feeds, social
-                media integration, third-party commenting tools, and works seamlessly with
-                Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+              <p class="art__body-description">
+                Blogr is a free and open source application backed by a large
+                community of helpful developers. It supports features such as
+                code syntax highlighting, RSS feeds, social media integration,
+                third-party commenting tools, and works seamlessly with Google
+                Analytics. The architecture is clean and is relatively easy to
+                learn.
+              </p>
             </article>
 
             <article>
               <h3 class="art__body-title">Powerful tooling</h3>
-              <p class="art__body-description">Batteries included. We built a simple and straightforward
-                CLI tool that makes customization and deployment a breeze, but capable of
-                producing even the most complicated sites.</p>
+              <p class="art__body-description">
+                Batteries included. We built a simple and straightforward CLI
+                tool that makes customization and deployment a breeze, but
+                capable of producing even the most complicated sites.
+              </p>
             </article>
           </div>
         </div>
@@ -241,78 +269,75 @@
 
       <footer class="footer">
         <div class="grid container footer__container">
-
           <a href="#" class="footer__logo">
             <img src="./assets/images/logo.svg" alt="logo" srcset="" />
           </a>
-          
+
           <div>
             Product
             <ul class="footer__list">
               <li class="footer__item">
                 <a href="#" class="footer__link">Overview</a>
               </li>
-              
+
               <li class="footer__item">
                 <a href="#" class="footer__link">Pricing</a>
               </li>
-              
+
               <li class="footer__item">
                 <a href="#" class="footer__link">Marketplace</a>
               </li>
-              
+
               <li class="footer__item">
                 <a href="#" class="footer__link">Features</a>
               </li>
-              
+
               <li class="footer__item">
                 <a href="#" class="footer__link">Integrations</a>
               </li>
             </ul>
           </div>
-          
+
           <div>
             Company
             <ul class="footer__list">
               <li class="footer__item">
                 <a href="#" class="footer__link">About</a>
               </li>
-              
+
               <li class="footer__item">
                 <a href="#" class="footer__link">Team</a>
               </li>
-              
+
               <li class="footer__item">
                 <a href="#" class="footer__link">Blog</a>
               </li>
-              
+
               <li class="footer__item">
                 <a href="#" class="footer__link">Careers</a>
               </li>
             </ul>
           </div>
-          
+
           <div>
             Connect
             <ul class="footer__list">
               <li class="footer__item">
                 <a href="#" class="footer__link">Contact</a>
               </li>
-              
+
               <li class="footer__item">
                 <a href="#" class="footer__link">Newsletter</a>
               </li>
-              
+
               <li class="footer__item">
                 <a href="#" class="footer__link">LinkedIn</a>
               </li>
             </ul>
           </div>
         </div>
-        </footer>
-
-      </main>
-      <script src="./assets/js/script.js"></script>
-    </body>
-    </html>
-    
+      </footer>
+    </main>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
